@@ -1,0 +1,623 @@
+
+@media (max-width: 1200px) {
+  #hero{
+    .hero--bg1{
+      left: 475px;
+    }
+    .hero--bg3 {
+       left: 956px;
+     }
+    .hero--bg2 {
+      left: 650px;
+    }
+  }
+
+  #study .study--img {
+    right: 147px;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+  #hero{
+    .hero--bg1 {
+      left: 422px;
+    }
+
+    .hero--bg2 {
+      left: 565px;
+    }
+
+    .hero--bg3 {
+      left: 810px;
+    }
+  }
+
+  #study .study--img {
+    right: 119px;
+  }
+
+  #career .career-bgImg {
+    top: 222px;
+    left: 117px;
+  }
+
+  #dream .dream--block {
+    width: 80%;
+  }
+
+
+}
+
+@media (max-width: 992px) {
+  #hero{
+    .hero--bg1 {
+      left: 402px;
+    }
+
+    .hero--bg2 {
+      left: 535px;
+    }
+
+    .hero--bg3 {
+      left: 790px;
+    }
+  }
+
+  #about {
+    padding: 20px 0;
+  }
+
+  #study {
+    padding: 50px 0;
+  }
+
+  #career {
+    padding: 50px 0;
+  }
+
+  #now {
+    padding: 65px 0;
+    .now .now-bgImg {
+      position: absolute;
+      width: 40%;
+    }
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  #header{
+    .navbar--nav{
+      display: none;
+    }
+    .open-close-menu{
+      display: block;
+    }
+  }
+
+  #hero {
+    .hero--bg {
+      width: 25%;
+    }
+
+    .hero--bg1 {
+      width: 18%;
+      left: 380px;
+    }
+
+    .hero--bg2 {
+      left: 350px;
+      top: 310px;
+    }
+
+    .hero--bg3 {
+      left: 556px;
+      width: 20%;
+    }
+  }
+
+  #study .study--block {
+    width: 60%;
+  }
+
+  #career{
+    padding: 30px 0;
+    .career--block {
+      width: 58%;
+      padding: 32px 0;
+    }
+  }
+
+  #career:after {
+    height: 23px;
+  }
+
+  #career .career-bgImg {
+    top: 56px;
+    left: 78px;
+    width: 40%;
+  }
+
+  #now .now--block {
+    width: 80%;
+    padding: 50px 0;
+  }
+
+  #contact .contact--block__address {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero .hero--block h1 {
+    font-size: 70px;
+  }
+
+  #hero .hero--block h3 {
+    font-size: 46px;
+  }
+
+  #hero{
+    height: 85vh;
+    .hero--bg {
+      width: 25%;
+      left: 52px;
+    }
+
+    .hero--bg1 {
+      width: 18%;
+      left: 275px;
+    }
+
+    .hero--bg2 {
+      left: 272px;
+      top: 270px;
+    }
+
+    .hero--bg3 {
+      left: 414px;
+    }
+    .hero--block__icon {
+      margin-top: 40px;
+    }
+  }
+
+  #about .about {
+    flex-direction: column;
+    &--block {
+      width: 85%;
+      z-index: 5;
+    }
+    &--img {
+      width: 65%;
+      margin-top: 30px;
+    }
+  }
+
+  #study .study {
+    flex-direction: column;
+    &--img1 {
+      width: 55%;
+    }
+    &--block {
+      width: 85%;
+      padding: 60px 0;
+    }
+    &--img {
+      right: 149px;
+      top: 548px;
+      width: 50%;
+    }
+  }
+
+  #career{
+    .career {
+      flex-direction: column;
+      &--block {
+        width: 85%;
+      }
+      .career--img1 {
+        width: 55%;
+      }
+
+    }
+    .career-bgImg {
+      top: 63px;
+      left: 156px;
+      width: 45%;
+    }
+  }
+
+  #dream .dream--block p {
+    font-size: 22px;
+    line-height: 37px;
+  }
+
+  #now .now--block {
+    width: 90%;
+  }
+
+  #now .now .now-bgImg {
+    width: 40%;
+  }
+
+  #now {
+    padding: 30px 0;
+  }
+
+  #contact .contact--block {
+    flex-wrap: wrap;
+    h1{
+      padding-right: 80%;
+    }
+  }
+
+  #contact .contact--block__address {
+    width: 56%;
+  }
+}
+
+@media (max-width: 451px) {
+  #hero .hero--block h1 {
+    font-size: 60px;
+  }
+
+  #hero .hero--block h3 {
+    font-size: 42px;
+  }
+
+  #hero{
+    .hero--bg {
+      width: 30%;
+    }
+
+    .hero--bg1 {
+      width: 22%;
+      left: 240px;
+    }
+
+    .hero--bg2 {
+      left: 196px;
+      width: 20%;
+      top: 266px;
+    }
+
+    .hero--bg3 {
+      left: 332px;
+    }
+  }
+
+  #about .about--block p {
+    font-size: 20px;
+  }
+
+  #study{
+    padding: 20px 0;
+    .study--block{
+      padding: 40px 0;
+      p {
+        font-size: 20px;
+      }
+  }
+  }
+
+  #study .study--img {
+    right: 109px;
+    top: 392px;
+  }
+
+  #career .career--block p {
+    font-size: 20px;
+  }
+
+  #career .career-bgImg {
+    top: 55px;
+    left: 117px;
+  }
+
+  #dream .dream--block p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  #now .now--block p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #contact .contact--block__instagram a {
+    font-size: 15px;
+  }
+
+  #contact .contact--block__address a {
+    font-size: 15px;
+  }
+
+  #footer .footer h1 {
+    font-size: 12px;
+    span {
+      font-size: 14px;
+    }
+  }
+
+  #footer .footer a {
+    font-size: 13px;
+    color: #040517;
+  }
+}
+
+@media (max-width: 420px) {
+
+
+  #hero .hero--block h1 {
+    font-size: 50px;
+  }
+
+  #hero .hero--block h3 {
+    font-size: 38px;
+  }
+
+  #hero .hero--bg1 {
+    width: 23%;
+    left: 220px;
+  }
+
+  #hero .hero--bg2 {
+    left: 165px;
+    width: 21%;
+    top: 245px;
+  }
+
+  #hero .hero--bg3 {
+    left: 296px;
+  }
+
+  #hero {
+    height: 70vh;
+  }
+
+  #study .study--img {
+    right: 100px;
+    top: 370px;
+  }
+
+  #study .study--block {
+    width: 100%;
+  }
+
+  #career .career--block {
+    width: 100%;
+  }
+
+  #career .career-bgImg {
+    top: 50px;
+    left: 108px;
+    width: 48%;
+  }
+
+  #now .now--block {
+    width: 100%;
+  }
+
+  #now .now .now-bgImg {
+    width: 60%;
+  }
+
+  #now .now .now-bgImg {
+    width: 60%;
+  }
+
+  #contact .contact--block__instagram a {
+    font-size: 13px;
+  }
+
+  #contact .contact--block__address a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  #hero .hero--block h1 {
+    font-size: 50px;
+  }
+
+  #hero .hero--block h3 {
+    font-size: 38px;
+  }
+
+  #hero .hero--bg1 {
+    width: 23%;
+    left: 220px;
+  }
+
+  #hero .hero--bg2 {
+    left: 165px;
+    width: 21%;
+    top: 245px;
+  }
+
+  #hero .hero--bg3 {
+    left: 296px;
+  }
+
+  #hero {
+    height: 70vh;
+  }
+
+  #study .study--img {
+    right: 100px;
+    top: 370px;
+  }
+
+  #study .study--block {
+    width: 100%;
+  }
+
+  #career .career--block {
+    width: 100%;
+  }
+
+  #career .career-bgImg {
+    top: 50px;
+    left: 89px;
+    width: 55%;
+  }
+
+  #now .now--block {
+    width: 100%;
+  }
+
+  #now .now .now-bgImg {
+    width: 60%;
+  }
+
+  #now .now .now-bgImg {
+    width: 60%;
+  }
+
+  #contact .contact--block__instagram a {
+    font-size: 13px;
+  }
+
+  #contact .contact--block__address a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 391px) {
+  #hero{
+    min-height: 60vh;
+    .hero--bg {
+      left: 35px;
+    }
+
+    .hero--bg1 {
+      left: 190px;
+    }
+
+    .hero--bg2 {
+      left: 146px;
+      top: 242px;
+    }
+
+    .hero--bg3 {
+      left: 275px;
+    }
+  }
+  #study .study--img {
+    right: 94px;
+    top: 348px;
+  }
+}
+
+@media (max-width: 376px) {
+  #hero{
+    .hero--bg {
+      left: 35px;
+    }
+
+    .hero--bg1 {
+      left: 190px;
+    }
+
+    .hero--bg2 {
+      left: 146px;
+      top: 242px;
+    }
+
+    .hero--bg3 {
+      left: 275px;
+    }
+  }
+  #study .study--img {
+     right: 94px;
+     top: 348px;
+   }
+}
+
+@media (max-width: 320px) {
+  #hero .hero--bg1 {
+    left: 167px;
+  }
+
+  #hero .hero--bg2 {
+    left: 130px;
+  }
+
+  #hero .hero--bg3 {
+    left: 233px;
+  }
+
+  #hero .hero--block h1 {
+    font-size: 45px;
+  }
+
+  #hero .hero--block h3 {
+    font-size: 34px;
+  }
+
+  #about .about--block p {
+    font-size: 16px;
+  }
+
+  #study .study--block p {
+    font-size: 16px;
+  }
+
+  #study .study--img {
+    right: 78px;
+    top: 298px;
+  }
+
+  #career .career--block p {
+    font-size: 16px;
+  }
+
+  #career .career-bgImg {
+    left: 73px;
+  }
+
+  #dream .dream--block p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  #now .now--block p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  #work .work .swiper-slide video {
+    width: 100%;
+  }
+
+  #work {
+    padding: 0 0;
+  }
+
+  #contact .contact--block__address {
+    width: 100%;
+    h2 {
+    font-size: 16px;
+  }
+  }
+
+  #contact .contact--block__instagram h2 {
+    font-size: 16px;
+  }
+
+  #footer .footer{
+    h1 {
+      font-size: 9px;
+      span{
+        font-size: 11px;
+      }
+  }
+    a{
+      font-size: 9px;
+    }
+  }
+}
